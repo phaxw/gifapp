@@ -4,11 +4,9 @@ import 'animate.css';
 
     const GifDiv = styled.div`
         align-content: center;
-        border: 1px solid grey;
-        border-radius: 6px;
         margin-bottom: 10px;
         margin-right: 10px;
-        overflow: hidden;
+        
     `
 
     const GifImage = styled.img`

@@ -7,11 +7,11 @@ const GifExpertApp = () => {
 
     //const categories = ['One Punch', 'Samurai X', 'One Piece']
 
-    const [category, setCategory] = useState('One Punch')
+    const [category, setCategory] = useState('')
 
     return (
         <>
-            <h2 className="center_text">GifExpertApp</h2>
+            <h2 className="title_text">GifExpertApp</h2>
             <AddCategory
                 setCategory={setCategory}
             />
